@@ -1,0 +1,110 @@
+html {
+    background-image: url('Playtime/footer-background.png');
+    background-repeat: repeat-x;
+    background-position:left bottom;
+    padding-bottom: 110 px;
+    background-color:black;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:white;
+}
+
+div#content {
+    line-height: 1.5;
+    margin-left: 225px; 
+    margin-top: 10px;
+}
+
+div#supporting {
+    background-color: #333;
+    color: #EEE;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    line-height: 1.2;
+}
+
+div#container {
+    width: 700 px;
+    margin: 0 auto;
+    position: relative; 
+}
+
+div#header ul.accessibility {
+    border: -10000 px;
+    position:absolute;
+}
+
+div#header {
+    background-image: url('Playtime/header-background.png');
+    background-repeat:no-repeat;
+    display:block; 
+    height: 110px;
+    width: 700px;
+    position:absolute;
+    background-color: black;
+}
+
+div#header h1 a {
+    color: inherit; 
+    color:white; 
+    text-decoration: none;
+    font-size: x-large;
+}
+
+h2{
+    font-weight: bold;
+    font-size: large;
+    color: palevioletred;
+}
+
+p{
+    color:black;
+    font-size:medium;
+}
+
+p.pullquote {
+    font-size:small;
+    border: 1 px solid grey;
+    padding: 20 px;
+}
+
+ul#navigation {
+    border-top: 1 px solid blanchedalmond;
+    color: slategrey;
+    font-size:small; 
+    line-height: 2.0 px;
+    list-style-type: none;
+    width: 200px;
+    left: 0px;
+    top: 10px;
+}
+
+ul#navigation li a {
+    padding: 5px;
+    background-color: slategray;
+    border-bottom: 1px solid blanchedalmond;
+}
+
+ul#navigation li a {
+    text-decoration: none;
+    color: #333; 
+}
+
+ul#navigation li a:hover,
+ul#navigation li a:focus,
+body.woosh ul#navigation li a#nav-home,
+body.ideas ul#navigation li a#nav-ideas,
+body.questions ul#navigation li a#nav-questions,
+body.questions ul#navigation li a#nav-opinions {
+    background-color: white;
+}
+
+div#footer{
+    background-color: black;
+    background-repeat: repeat-x;
+    padding: 10px 10px 10px 10px;
+    width: 700px; 
+    color: white;
+}
